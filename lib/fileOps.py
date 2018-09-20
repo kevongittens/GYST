@@ -29,11 +29,11 @@ def readHtml(url):
     response = urlopen(url)
     data = response.read()
     print(data)
-    string = data.decode('ASCII')##.replace('\0', '') # JSON default
+    #string = data.decode('ASCII')##.replace('\0', '') # JSON default
     #encoding = conn.info().get_content_charset('utf8')  # JSON default
     #data = json.loads(raw_data.decode(encoding))
-    json_obj = json.loads(string)
-    print(json_obj)
+    #json_obj = json.loads(string)
+    #print(json_obj)
 
     
     #print readHtml('http://www.voidspace.org.uk')
